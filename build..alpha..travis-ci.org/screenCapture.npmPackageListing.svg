@@ -1,0 +1,70 @@
+<svg height="1070" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1070" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-22 04:02:56 +0000   280517 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-22 04:02:56 +0000       61 bytes  babel.js</tspan>
+<tspan x="10" y="58">  2.  2017-04-22 04:02:56 +0000       43 bytes  css.js</tspan>
+<tspan x="10" y="74">  3.  2017-04-22 04:02:56 +0000     2812 bytes  dist/bin/next</tspan>
+<tspan x="10" y="90">  4.  2017-04-22 04:02:56 +0000     1733 bytes  dist/bin/next-build</tspan>
+<tspan x="10" y="106">  5.  2017-04-22 04:02:56 +0000     3489 bytes  dist/bin/next-dev</tspan>
+<tspan x="10" y="122">  6.  2017-04-22 04:02:56 +0000     4151 bytes  dist/bin/next-init</tspan>
+<tspan x="10" y="138">  7.  2017-04-22 04:02:56 +0000     2194 bytes  dist/bin/next-start</tspan>
+<tspan x="10" y="154">  8.  2017-04-22 04:02:56 +0000     3604 bytes  dist/client/head-manager.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-22 04:02:56 +0000     8182 bytes  dist/client/index.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-22 04:02:56 +0000     1796 bytes  dist/client/next-dev.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-22 04:02:56 +0000      191 bytes  dist/client/next.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-22 04:02:56 +0000     2950 bytes  dist/client/on-demand-entries-client.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-22 04:02:56 +0000     2535 bytes  dist/client/webpack-hot-middleware-client.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-22 04:02:56 +0000     5732 bytes  dist/lib/app.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-22 04:02:56 +0000      176 bytes  dist/lib/css.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-22 04:02:56 +0000     2920 bytes  dist/lib/error-debug.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-22 04:02:56 +0000     3853 bytes  dist/lib/error.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-22 04:02:56 +0000      650 bytes  dist/lib/eval-script.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-22 04:02:56 +0000     4074 bytes  dist/lib/head.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-22 04:02:56 +0000     6238 bytes  dist/lib/link.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-22 04:02:56 +0000     3101 bytes  dist/lib/p-queue.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-22 04:02:56 +0000     2636 bytes  dist/lib/prefetch.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-22 04:02:56 +0000     3592 bytes  dist/lib/router/index.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-22 04:02:56 +0000    25002 bytes  dist/lib/router/router.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-22 04:02:56 +0000      289 bytes  dist/lib/shallow-equals.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-22 04:02:56 +0000     4481 bytes  dist/lib/side-effect.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-22 04:02:56 +0000     3658 bytes  dist/lib/utils.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-22 04:02:56 +0000       42 bytes  dist/pages/_document.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-22 04:02:56 +0000       39 bytes  dist/pages/_error.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-22 04:02:56 +0000     1004 bytes  dist/server/build/babel/find-config.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-22 04:02:56 +0000     1624 bytes  dist/server/build/babel/preset.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-22 04:02:56 +0000      522 bytes  dist/server/build/clean.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-22 04:02:56 +0000     5105 bytes  dist/server/build/index.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-22 04:02:56 +0000     1019 bytes  dist/server/build/loaders/emit-file-loader.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-22 04:02:56 +0000     1585 bytes  dist/server/build/loaders/hot-self-accept-loader\</tspan>
+<tspan x="10" y="602">.js</tspan>
+<tspan x="10" y="618"> 36.  2017-04-22 04:02:56 +0000     1648 bytes  dist/server/build/plugins/combine-assets-plugin.\</tspan>
+<tspan x="10" y="634">js</tspan>
+<tspan x="10" y="650"> 37.  2017-04-22 04:02:56 +0000     1778 bytes  dist/server/build/plugins/json-pages-plugin.js</tspan>
+<tspan x="10" y="666"> 38.  2017-04-22 04:02:56 +0000     3042 bytes  dist/server/build/plugins/unlink-file-plugin.js</tspan>
+<tspan x="10" y="682"> 39.  2017-04-22 04:02:56 +0000     1652 bytes  dist/server/build/plugins/watch-pages-plugin.js</tspan>
+<tspan x="10" y="698"> 40.  2017-04-22 04:02:56 +0000     2340 bytes  dist/server/build/replace.js</tspan>
+<tspan x="10" y="714"> 41.  2017-04-22 04:02:56 +0000     1058 bytes  dist/server/build/root-module-relative-path.js</tspan>
+<tspan x="10" y="730"> 42.  2017-04-22 04:02:56 +0000    21746 bytes  dist/server/build/webpack.js</tspan>
+<tspan x="10" y="746"> 43.  2017-04-22 04:02:56 +0000     1061 bytes  dist/server/config.js</tspan>
+<tspan x="10" y="762"> 44.  2017-04-22 04:02:56 +0000     6883 bytes  dist/server/document.js</tspan>
+<tspan x="10" y="778"> 45.  2017-04-22 04:02:56 +0000    22527 bytes  dist/server/hot-reloader.js</tspan>
+<tspan x="10" y="794"> 46.  2017-04-22 04:02:56 +0000    33348 bytes  dist/server/index.js</tspan>
+<tspan x="10" y="810"> 47.  2017-04-22 04:02:56 +0000      241 bytes  dist/server/next.js</tspan>
+<tspan x="10" y="826"> 48.  2017-04-22 04:02:56 +0000     9463 bytes  dist/server/on-demand-entry-handler.js</tspan>
+<tspan x="10" y="842"> 49.  2017-04-22 04:02:56 +0000     1973 bytes  dist/server/read-page.js</tspan>
+<tspan x="10" y="858"> 50.  2017-04-22 04:02:56 +0000    13466 bytes  dist/server/render.js</tspan>
+<tspan x="10" y="874"> 51.  2017-04-22 04:02:56 +0000     1242 bytes  dist/server/require.js</tspan>
+<tspan x="10" y="890"> 52.  2017-04-22 04:02:56 +0000     7860 bytes  dist/server/resolve.js</tspan>
+<tspan x="10" y="906"> 53.  2017-04-22 04:02:56 +0000     3748 bytes  dist/server/router.js</tspan>
+<tspan x="10" y="922"> 54.  2017-04-22 04:02:56 +0000       51 bytes  document.js</tspan>
+<tspan x="10" y="938"> 55.  2017-04-22 04:02:56 +0000       45 bytes  error.js</tspan>
+<tspan x="10" y="954"> 56.  2017-04-22 04:02:56 +0000       44 bytes  head.js</tspan>
+<tspan x="10" y="970"> 57.  2017-04-22 04:02:56 +0000     1077 bytes  license.md</tspan>
+<tspan x="10" y="986"> 58.  2017-04-22 04:02:56 +0000       44 bytes  link.js</tspan>
+<tspan x="10" y="1002"> 59.  2017-04-22 04:02:56 +0000     3768 bytes  package.json</tspan>
+<tspan x="10" y="1018"> 60.  2017-04-22 04:02:56 +0000       48 bytes  prefetch.js</tspan>
+<tspan x="10" y="1034"> 61.  2017-04-22 04:02:56 +0000    29235 bytes  readme.md</tspan>
+<tspan x="10" y="1050"> 62.  2017-04-22 04:02:56 +0000       46 bytes  router.js</tspan>
+</text>
+</svg>

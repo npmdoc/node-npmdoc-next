@@ -1,0 +1,590 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+    >next (v2.1.1)</a>
+</h1>
+<h4>Minimalistic framework for server-rendered React applications</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.next">module next</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">next.</span>document</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">next.</span>error</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">next.</span>head</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">next.</span>link</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">next.</span>prefetch</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">next.</span>router</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.next.document">module next.document</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.document.Head">
+            function <span class="apidocSignatureSpan">next.document.</span>Head
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.document.Main">
+            function <span class="apidocSignatureSpan">next.document.</span>Main
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.document.NextScript">
+            function <span class="apidocSignatureSpan">next.document.</span>NextScript
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.document.default">
+            function <span class="apidocSignatureSpan">next.document.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.next.error">module next.error</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.error.default">
+            function <span class="apidocSignatureSpan">next.error.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.next.head">module next.head</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.head.default">
+            function <span class="apidocSignatureSpan">next.head.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.head.defaultHead">
+            function <span class="apidocSignatureSpan">next.head.</span>defaultHead
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.next.link">module next.link</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.link.default">
+            function <span class="apidocSignatureSpan">next.link.</span>default
+            <span class="apidocSignatureSpan">(props)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.next.prefetch">module next.prefetch</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.prefetch.prefetch">
+            function <span class="apidocSignatureSpan">next.</span>prefetch
+            <span class="apidocSignatureSpan">(href)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.prefetch.default">
+            function <span class="apidocSignatureSpan">next.prefetch.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.next.router">module next.router</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.router.Router">
+            function <span class="apidocSignatureSpan">next.router.</span>Router
+            <span class="apidocSignatureSpan">(pathname, query, as)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.router._notifyBuildIdMismatch">
+            function <span class="apidocSignatureSpan">next.router.</span>_notifyBuildIdMismatch
+            <span class="apidocSignatureSpan">(nextRoute)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.next.router.createRouter">
+            function <span class="apidocSignatureSpan">next.router.</span>createRouter
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">next.router.</span>default</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.next" id="apidoc.module.next">module next</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.next.document" id="apidoc.module.next.document">module next.document</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.next.document.Head" id="apidoc.element.next.document.Head">
+        function <span class="apidocSignatureSpan">next.document.</span>Head
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Head() {
+  (0, _classCallCheck3.default)(this, Head);
+  return (0, _possibleConstructorReturn3.default)(this, (Head.__proto__ || (0, _getPrototypeOf2.default)(Head)).apply(this, arguments
+));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.next.document.Main" id="apidoc.element.next.document.Main">
+        function <span class="apidocSignatureSpan">next.document.</span>Main
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Main() {
+  (0, _classCallCheck3.default)(this, Main);
+  return (0, _possibleConstructorReturn3.default)(this, (Main.__proto__ || (0, _getPrototypeOf2.default)(Main)).apply(this, arguments
+));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.next.document.NextScript" id="apidoc.element.next.document.NextScript">
+        function <span class="apidocSignatureSpan">next.document.</span>NextScript
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function NextScript() {
+  (0, _classCallCheck3.default)(this, NextScript);
+  return (0, _possibleConstructorReturn3.default)(this, (NextScript.__proto__ || (0, _getPrototypeOf2.default)(NextScript)).apply
+(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.next.document.default" id="apidoc.element.next.document.default">
+        function <span class="apidocSignatureSpan">next.document.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Document() {
+  (0, _classCallCheck3.default)(this, Document);
+  return (0, _possibleConstructorReturn3.default)(this, (Document.__proto__ || (0, _getPrototypeOf2.default)(Document)).apply(this
+, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.next.error" id="apidoc.module.next.error">module next.error</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.next.error.default" id="apidoc.element.next.error.default">
+        function <span class="apidocSignatureSpan">next.error.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Error() {
+  (0, _classCallCheck3.default)(this, Error);
+  return (0, _possibleConstructorReturn3.default)(this, (Error.__proto__ || (0, _getPrototypeOf2.default)(Error)).apply(this, arguments
+));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.next.head" id="apidoc.module.next.head">module next.head</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.next.head.default" id="apidoc.element.next.head.default">
+        function <span class="apidocSignatureSpan">next.head.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function SideEffect() {
+  (0, _classCallCheck3.default)(this, SideEffect);
+  return (0, _possibleConstructorReturn3.default)(this, (SideEffect.__proto__ || (0, _getPrototypeOf2.default)(SideEffect)).apply
+(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.next.head.defaultHead" id="apidoc.element.next.head.defaultHead">
+        function <span class="apidocSignatureSpan">next.head.</span>defaultHead
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function defaultHead() {
+  return [_react2.default.createElement(&#x27;meta&#x27;, { charSet: &#x27;utf-8&#x27;, className: &#x27;next-head&#x27; })];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.next.link" id="apidoc.module.next.link">module next.link</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.next.link.default" id="apidoc.element.next.link.default">
+        function <span class="apidocSignatureSpan">next.link.</span>default
+        <span class="apidocSignatureSpan">(props)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Link(props) {
+  var _ref;
+
+  (0, _classCallCheck3.default)(this, Link);
+
+  for (var _len = arguments.length, rest = Array(_len &#x3e; 1 ? _len - 1 : 0), _key = 1; _key &#x3c; _len; _key++) {
+    rest[_key - 1] = arguments[_key];
+  }
+
+  var _this = (0, _possibleConstructorReturn3.default)(this, (_ref = Link.__proto__ || (0, _getPrototypeOf2.default)(Link)).call
+.apply(_ref, [this, props].concat(rest)));
+
+  _this.linkClicked = _this.linkClicked.bind(_this);
+  _this.formatUrls(props);
+  return _this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.next.prefetch" id="apidoc.module.next.prefetch">module next.prefetch</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.next.prefetch.prefetch" id="apidoc.element.next.prefetch.prefetch">
+        function <span class="apidocSignatureSpan">next.</span>prefetch
+        <span class="apidocSignatureSpan">(href)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function prefetch(href) {
+  warnImperativePrefetch();
+  return _router2.default.prefetch(href);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+export default ({ url }) =&#x3e; (
+  &#x3c;div&#x3e;
+    &#x3c;a onClick={ () =&#x3e; setTimeout(() =&#x3e; url.pushTo(&#x27;/dynamic&#x27;), 100) }&#x3e;
+      A route transition will happen after 100ms
+    &#x3c;/a&#x3e;
+    {
+      // but we can prefetch it!
+      Router.<span class="apidocCodeKeywordSpan">prefetch</span>(&#x27;/dynamic&#x27;)
+    }
+  &#x3c;/div&#x3e;
+)
+```
+
+### Custom server and routing
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.next.prefetch.default" id="apidoc.element.next.prefetch.default">
+        function <span class="apidocSignatureSpan">next.prefetch.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function LinkPrefetch() {
+  (0, _classCallCheck3.default)(this, LinkPrefetch);
+  return (0, _possibleConstructorReturn3.default)(this, (LinkPrefetch.__proto__ || (0, _getPrototypeOf2.default)(LinkPrefetch)).
+apply(this, arguments));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.next.router" id="apidoc.module.next.router">module next.router</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.next.router.Router" id="apidoc.element.next.router.Router">
+        function <span class="apidocSignatureSpan">next.router.</span>Router
+        <span class="apidocSignatureSpan">(pathname, query, as)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Router(pathname, query, as) {
+  var _ref = arguments.length &#x3e; 3 &#x26;&#x26; arguments[3] !== undefined ? arguments[3] : {},
+      Component = _ref.Component,
+      ErrorComponent = _ref.ErrorComponent,
+      err = _ref.err;
+
+  (0, _classCallCheck3.default)(this, Router);
+
+  // represents the current component key
+  this.route = toRoute(pathname);
+
+  // set up the component cache (by route keys)
+  this.components = (0, _defineProperty3.default)({}, this.route, { Component: Component, err: err });
+
+  // contain a map of promise of fetch routes
+  this.fetchingRoutes = {};
+
+  // Handling Router Events
+  this.events = (0, _mitt2.default)();
+
+  this.prefetchQueue = new _pQueue2.default({ concurrency: 2 });
+  this.ErrorComponent = ErrorComponent;
+  this.pathname = pathname;
+  this.query = query;
+  this.as = as;
+  this.subscriptions = new _set2.default();
+  this.componentLoadCancel = null;
+  this.onPopState = this.onPopState.bind(this);
+
+  if (typeof window !== &#x27;undefined&#x27;) {
+    // in order for `e.state` to work on the `onpopstate` event
+    // we have to register the initial route upon initialization
+    this.changeState(&#x27;replaceState&#x27;, (0, _url2.format)({ pathname: pathname, query: query }), (0, _utils.getURL)());
+
+    window.addEventListener(&#x27;popstate&#x27;, this.onPopState);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.next.router._notifyBuildIdMismatch" id="apidoc.element.next.router._notifyBuildIdMismatch">
+        function <span class="apidocSignatureSpan">next.router.</span>_notifyBuildIdMismatch
+        <span class="apidocSignatureSpan">(nextRoute)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function _notifyBuildIdMismatch(nextRoute) {
+  if (SingletonRouter.onAppUpdated) {
+    SingletonRouter.onAppUpdated(nextRoute);
+  } else {
+    console.warn(&#x27;An app update detected. Loading the SSR version of &#x22;&#x27; + nextRoute + &#x27;&#x22;&#x27;);
+    window.location.href = nextRoute;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.next.router.createRouter" id="apidoc.element.next.router.createRouter">
+        function <span class="apidocSignatureSpan">next.router.</span>createRouter
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createRouter() {
+  for (var _len = arguments.length, args = Array(_len), _key = 0; _key &#x3c; _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  SingletonRouter.router = new (Function.prototype.bind.apply(_router2.default, [null].concat(args)))();
+  SingletonRouter.readyCallbacks.forEach(function (cb) {
+    return cb();
+  });
+  SingletonRouter.readyCallbacks = [];
+
+  return SingletonRouter.router;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
